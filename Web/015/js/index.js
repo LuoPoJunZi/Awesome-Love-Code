@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||超哥|毕业快乐|展翅高飞，前程似锦|❤|#rectangle|');
+      S.UI.simulate('|#countdown 3||超哥|毕业快乐|祝展翅高飞|前程似锦！|❤|#rectangle|');
     }
 
     S.Drawing.loop(function () {
